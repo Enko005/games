@@ -1,0 +1,37 @@
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Скрипти</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+      <h1>У кого більше число</h1>
+  <div class="game-info">Грай проти комп'ютера - перший до 3 перемог!</div>
+  
+  <div class="container">
+    <div class="notification" id="notification"></div>
+    
+    <h2 id="userName">User</h2>
+    
+    <div class="score-container">
+      <div class="player">
+        <div class="score" id="userScore">0</div>
+        <div class="number" id="userNumber">?</div>
+      </div>
+
+      <button id="generate">Згенерувати</button>
+
+      <div class="player">
+        <div class="score" id="compScore">0</div>
+        <div class="number" id="compNumber">?</div>
+      </div>
+    </div>
+
+    <div class="history" id="history">
+      <h3>Історія раундів:</h3>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
